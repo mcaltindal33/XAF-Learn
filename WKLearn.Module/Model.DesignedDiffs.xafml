@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="WKLearn">
+  <CreatableItems>
+    <CreatableItem ClassName="WKLearn.Module.BusinessObjects.Company" Removed="True" />
+  </CreatableItems>
+  <NavigationItems>
+    <Items>
+      <Item Id="Setup">
+        <Items>
+          <Item Id="Company_ListView" ViewId="Company_DetailView" ObjectKey="1" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="18.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="18.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="SalesOrder_OrderDetail_ListView" NewItemRowPosition="Bottom" AllowEdit="True" />
+    <ListView Id="SalesOrderDetail_ListView" AllowEdit="True" NewItemRowPosition="Bottom" />
+  </Views>
+</Application>
