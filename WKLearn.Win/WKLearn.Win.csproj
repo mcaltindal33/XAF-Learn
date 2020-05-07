@@ -368,8 +368,6 @@
   <ItemGroup>
     <Content Include="ExpressApp.ico" />
     <EmbeddedResource Include="Images\Logotype.svg" />
-    <None Include="Images\ReadMe.txt" />
-    <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WKLearn.Module.Win\WKLearn.Module.Win.csproj">

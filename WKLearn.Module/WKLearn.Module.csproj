@@ -226,30 +226,13 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DatabaseUpdate\ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="BusinessObjects\ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Controllers\ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="FunctionalTests\ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="FunctionalTests\sample.ets" />
-    <None Include="Images\ReadMe.txt" />
-    <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\ExpressAppLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FunctionalTests\config.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Welcome.html" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
